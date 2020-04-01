@@ -1,3 +1,6 @@
+C This file is a part of SpecialFunctions.jl from Mike Nolta.
+C License is MIT: https://github.com/nolta/SpecialFunctions.jl/LICENSE.md
+
       SUBROUTINE ZS1S2(ZRR, ZRI, S1R, S1I, S2R, S2I, NZ, ASCLE, ALIM,
      * IUF)
 C***BEGIN PROLOGUE  ZS1S2

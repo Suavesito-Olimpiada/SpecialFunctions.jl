@@ -1,5 +1,8 @@
 #!/usr/bin/env julia
 
+# This file is a part of SpecialFunctions.jl from Mike Nolta.
+# License is MIT: https://github.com/nolta/SpecialFunctions.jl/LICENSE.md
+
 using Base.Meta.isexpr
 
 iscall(e::Expr, name::Symbol) = isexpr(e,:call) && e.args[1] == name

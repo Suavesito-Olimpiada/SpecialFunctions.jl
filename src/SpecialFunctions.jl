@@ -1,3 +1,6 @@
+# This file is a part of SpecialFunctions.jl from Mike Nolta.
+# License is MIT: https://github.com/nolta/SpecialFunctions.jl/LICENSE.md
+
 module SpecialFunctions
 
 export  

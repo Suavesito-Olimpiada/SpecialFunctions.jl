@@ -1,3 +1,6 @@
+C This file is a part of SpecialFunctions.jl from Mike Nolta.
+C License is MIT: https://github.com/nolta/SpecialFunctions.jl/LICENSE.md
+
       SUBROUTINE ZSHCH(ZR, ZI, CSHR, CSHI, CCHR, CCHI)
 C***BEGIN PROLOGUE  ZSHCH
 C***REFER TO  ZBESK,ZBESH

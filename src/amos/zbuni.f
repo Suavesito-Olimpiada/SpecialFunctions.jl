@@ -1,3 +1,6 @@
+C This file is a part of SpecialFunctions.jl from Mike Nolta.
+C License is MIT: https://github.com/nolta/SpecialFunctions.jl/LICENSE.md
+
       SUBROUTINE ZBUNI(ZR, ZI, FNU, KODE, N, YR, YI, NZ, NUI, NLAST,
      * FNUL, TOL, ELIM, ALIM)
 C***BEGIN PROLOGUE  ZBUNI

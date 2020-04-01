@@ -1,3 +1,6 @@
+# This file is a part of SpecialFunctions.jl from Mike Nolta.
+# License is MIT: https://github.com/nolta/SpecialFunctions.jl/LICENSE.md
+
 const _ZAIRY_CYR = Array(Float64,1)
 const _ZAIRY_CYI = Array(Float64,1)
 function ZAIRY(ZR::Float64,ZI::Float64,ID::Int32,KODE::Int32,AIR::Float64,AII::Float64,NZ::Int32,IERR::Int32)

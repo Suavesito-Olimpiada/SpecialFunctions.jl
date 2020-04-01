@@ -1,3 +1,6 @@
+C This file is a part of SpecialFunctions.jl from Mike Nolta.
+C License is MIT: https://github.com/nolta/SpecialFunctions.jl/LICENSE.md
+
       SUBROUTINE ZAIRY(ZR, ZI, ID, KODE, AIR, AII, NZ, IERR)
 C***BEGIN PROLOGUE  ZAIRY
 C***DATE WRITTEN   830501   (YYMMDD)

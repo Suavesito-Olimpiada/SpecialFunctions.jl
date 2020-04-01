@@ -1,3 +1,6 @@
+# This file is a part of SpecialFunctions.jl from Mike Nolta.
+# License is MIT: https://github.com/nolta/SpecialFunctions.jl/LICENSE.md
+
 function ZUCHK(YR::Float64,YI::Float64,NZ::Int32,ASCLE::Float64,TOL::Float64)
     SS::Float64 = zero(Float64)
     ST::Float64 = zero(Float64)

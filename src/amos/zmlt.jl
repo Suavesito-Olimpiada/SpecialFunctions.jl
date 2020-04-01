@@ -1,3 +1,6 @@
+# This file is a part of SpecialFunctions.jl from Mike Nolta.
+# License is MIT: https://github.com/nolta/SpecialFunctions.jl/LICENSE.md
+
 function ZMLT(AR::Float64,AI::Float64,BR::Float64,BI::Float64,CR::Float64,CI::Float64)
     CA::Float64 = zero(Float64)
     CB::Float64 = zero(Float64)

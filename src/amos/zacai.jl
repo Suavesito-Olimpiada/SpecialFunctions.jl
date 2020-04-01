@@ -1,3 +1,6 @@
+# This file is a part of SpecialFunctions.jl from Mike Nolta.
+# License is MIT: https://github.com/nolta/SpecialFunctions.jl/LICENSE.md
+
 const _ZACAI_CYR = Array(Float64,2)
 const _ZACAI_CYI = Array(Float64,2)
 function ZACAI(ZR::Float64,ZI::Float64,FNU::Float64,KODE::Int32,MR::Int32,N::Int32,YR::AbstractArray{Float64},YI::AbstractArray{Float64},NZ::Int32,RL::Float64,TOL::Float64,ELIM::Float64,ALIM::Float64)

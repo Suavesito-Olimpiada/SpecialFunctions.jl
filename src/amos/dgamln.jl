@@ -1,3 +1,6 @@
+# This file is a part of SpecialFunctions.jl from Mike Nolta.
+# License is MIT: https://github.com/nolta/SpecialFunctions.jl/LICENSE.md
+
 const _DGAMLN_GLN = Array(Float64,100)
 const _DGAMLN_CF = Array(Float64,22)
 function DGAMLN(Z::Float64,IERR::Int32)

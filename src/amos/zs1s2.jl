@@ -1,3 +1,6 @@
+# This file is a part of SpecialFunctions.jl from Mike Nolta.
+# License is MIT: https://github.com/nolta/SpecialFunctions.jl/LICENSE.md
+
 function ZS1S2(ZRR::Float64,ZRI::Float64,S1R::Float64,S1I::Float64,S2R::Float64,S2I::Float64,NZ::Int32,ASCLE::Float64,ALIM::Float64,IUF::Int32)
     AA::Float64 = zero(Float64)
     ALN::Float64 = zero(Float64)

@@ -1,3 +1,6 @@
+# This file is a part of SpecialFunctions.jl from Mike Nolta.
+# License is MIT: https://github.com/nolta/SpecialFunctions.jl/LICENSE.md
+
 const _ZUNIK_CON = Array(Float64,2)
 const _ZUNIK_C = Array(Float64,120)
 function ZUNIK(ZRR::Float64,ZRI::Float64,FNU::Float64,IKFLG::Int32,IPMTR::Int32,TOL::Float64,INIT::Int32,PHIR::Float64,PHII::Float64,ZETA1R::Float64,ZETA1I::Float64,ZETA2R::Float64,ZETA2I::Float64,SUMR::Float64,SUMI::Float64,CWRKR::AbstractArray{Float64},CWRKI::AbstractArray{Float64})

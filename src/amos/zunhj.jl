@@ -1,3 +1,6 @@
+# This file is a part of SpecialFunctions.jl from Mike Nolta.
+# License is MIT: https://github.com/nolta/SpecialFunctions.jl/LICENSE.md
+
 const _ZUNHJ_UPR = Array(Float64,14)
 const _ZUNHJ_UPI = Array(Float64,14)
 const _ZUNHJ_PR = Array(Float64,30)

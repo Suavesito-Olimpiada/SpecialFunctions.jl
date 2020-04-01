@@ -1,3 +1,6 @@
+# This file is a part of SpecialFunctions.jl from Mike Nolta.
+# License is MIT: https://github.com/nolta/SpecialFunctions.jl/LICENSE.md
+
 function ZABS(Z::Complex128)
     __ZABS__::Float64 = zero(Float64)
     Q::Float64 = zero(Float64)

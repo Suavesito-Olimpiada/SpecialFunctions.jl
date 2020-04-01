@@ -1,3 +1,6 @@
+# This file is a part of SpecialFunctions.jl from Mike Nolta.
+# License is MIT: https://github.com/nolta/SpecialFunctions.jl/LICENSE.md
+
 const _ZUNK2_ZETA2R = Array(Float64,2)
 const _ZUNK2_ZETA2I = Array(Float64,2)
 const _ZUNK2_ZETA1R = Array(Float64,2)

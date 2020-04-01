@@ -1,3 +1,6 @@
+# This file is a part of SpecialFunctions.jl from Mike Nolta.
+# License is MIT: https://github.com/nolta/SpecialFunctions.jl/LICENSE.md
+
 function ZSHCH(ZR::Float64,ZI::Float64,CSHR::Float64,CSHI::Float64,CCHR::Float64,CCHI::Float64)
     CH::Float64 = zero(Float64)
     CN::Float64 = zero(Float64)

@@ -1,3 +1,6 @@
+C This file is a part of SpecialFunctions.jl from Mike Nolta.
+C License is MIT: https://github.com/nolta/SpecialFunctions.jl/LICENSE.md
+
       DOUBLE PRECISION FUNCTION DGAMLN(Z,IERR)
 C***BEGIN PROLOGUE  DGAMLN
 C***DATE WRITTEN   830501   (YYMMDD)

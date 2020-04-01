@@ -1,3 +1,6 @@
+# This file is a part of SpecialFunctions.jl from Mike Nolta.
+# License is MIT: https://github.com/nolta/SpecialFunctions.jl/LICENSE.md
+
 const _ZACON_CYR = Array(Float64,2)
 const _ZACON_CYI = Array(Float64,2)
 const _ZACON_CSSR = Array(Float64,3)

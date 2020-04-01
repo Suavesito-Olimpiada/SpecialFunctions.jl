@@ -1,3 +1,6 @@
+# This file is a part of SpecialFunctions.jl from Mike Nolta.
+# License is MIT: https://github.com/nolta/SpecialFunctions.jl/LICENSE.md
+
 function ZBESY(ZR::Float64,ZI::Float64,FNU::Float64,KODE::Int32,N::Int32,CYR::AbstractArray{Float64},CYI::AbstractArray{Float64},NZ::Int32,CWRKR::AbstractArray{Float64},CWRKI::AbstractArray{Float64},IERR::Int32)
     AA::Float64 = zero(Float64)
     ASCLE::Float64 = zero(Float64)

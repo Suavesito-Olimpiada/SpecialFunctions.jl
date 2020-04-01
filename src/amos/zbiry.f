@@ -1,3 +1,6 @@
+C This file is a part of SpecialFunctions.jl from Mike Nolta.
+C License is MIT: https://github.com/nolta/SpecialFunctions.jl/LICENSE.md
+
       SUBROUTINE ZBIRY(ZR, ZI, ID, KODE, BIR, BII, IERR)
 C***BEGIN PROLOGUE  ZBIRY
 C***DATE WRITTEN   830501   (YYMMDD)

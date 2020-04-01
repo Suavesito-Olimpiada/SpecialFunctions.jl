@@ -1,3 +1,6 @@
+# This file is a part of SpecialFunctions.jl from Mike Nolta.
+# License is MIT: https://github.com/nolta/SpecialFunctions.jl/LICENSE.md
+
 const _ZUOIK_CWRKR = Array(Float64,16)
 const _ZUOIK_CWRKI = Array(Float64,16)
 function ZUOIK(ZR::Float64,ZI::Float64,FNU::Float64,KODE::Int32,IKFLG::Int32,N::Int32,YR::AbstractArray{Float64},YI::AbstractArray{Float64},NUF::Int32,TOL::Float64,ELIM::Float64,ALIM::Float64)

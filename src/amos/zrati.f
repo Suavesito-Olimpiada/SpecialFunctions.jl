@@ -1,3 +1,6 @@
+C This file is a part of SpecialFunctions.jl from Mike Nolta.
+C License is MIT: https://github.com/nolta/SpecialFunctions.jl/LICENSE.md
+
       SUBROUTINE ZRATI(ZR, ZI, FNU, N, CYR, CYI, TOL)
 C***BEGIN PROLOGUE  ZRATI
 C***REFER TO  ZBESI,ZBESK,ZBESH

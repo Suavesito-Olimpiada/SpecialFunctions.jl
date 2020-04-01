@@ -1,3 +1,6 @@
+# This file is a part of SpecialFunctions.jl from Mike Nolta.
+# License is MIT: https://github.com/nolta/SpecialFunctions.jl/LICENSE.md
+
 function ZSQRT(AR::Float64,AI::Float64,BR::Float64,BI::Float64)
     DPI::Float64 = zero(Float64)
     DRT::Float64 = zero(Float64)

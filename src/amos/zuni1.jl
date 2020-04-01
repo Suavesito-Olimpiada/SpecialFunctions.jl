@@ -1,3 +1,6 @@
+# This file is a part of SpecialFunctions.jl from Mike Nolta.
+# License is MIT: https://github.com/nolta/SpecialFunctions.jl/LICENSE.md
+
 const _ZUNI1_CYR = Array(Float64,2)
 const _ZUNI1_CYI = Array(Float64,2)
 const _ZUNI1_CWRKR = Array(Float64,16)

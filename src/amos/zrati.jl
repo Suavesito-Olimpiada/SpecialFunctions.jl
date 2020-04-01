@@ -1,3 +1,6 @@
+# This file is a part of SpecialFunctions.jl from Mike Nolta.
+# License is MIT: https://github.com/nolta/SpecialFunctions.jl/LICENSE.md
+
 function ZRATI(ZR::Float64,ZI::Float64,FNU::Float64,N::Int32,CYR::AbstractArray{Float64},CYI::AbstractArray{Float64},TOL::Float64)
     AK::Float64 = zero(Float64)
     AMAGZ::Float64 = zero(Float64)

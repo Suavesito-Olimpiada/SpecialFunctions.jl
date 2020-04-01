@@ -1,3 +1,6 @@
+# This file is a part of SpecialFunctions.jl from Mike Nolta.
+# License is MIT: https://github.com/nolta/SpecialFunctions.jl/LICENSE.md
+
 function ZWRSK(ZRR::Float64,ZRI::Float64,FNU::Float64,KODE::Int32,N::Int32,YR::AbstractArray{Float64},YI::AbstractArray{Float64},NZ::Int32,CWR::AbstractArray{Float64},CWI::AbstractArray{Float64},TOL::Float64,ELIM::Float64,ALIM::Float64)
     ACT::Float64 = zero(Float64)
     ACW::Float64 = zero(Float64)
